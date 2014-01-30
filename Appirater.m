@@ -352,7 +352,7 @@ static BOOL _alwaysUseMainBundle = NO;
 		[userDefaults setDouble:0 forKey:kAppiraterReminderRequestDate];
 	}
 	
-	[userDefaults synchronize];
+	//[userDefaults synchronize];
 }
 
 - (void)incrementAndRate:(BOOL)canPromptForRating {
